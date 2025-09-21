@@ -44,7 +44,7 @@ pip install -r requirements.txt
 ## Usage
 
 ```
-usage: phoneinfoga.py -n <number> [options]
+usage: phoneinfoga.py -n +7903031-73-91 [options]
 
 Advanced information gathering tool for phone numbers
 (https://github.com/sundowndev/PhoneInfoga)
