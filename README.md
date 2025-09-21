@@ -44,14 +44,14 @@ pip install -r requirements.txt
 ## Usage
 
 ```
-usage: phoneinfoga.py -n <number> [options]
+usage: phoneinfoga.py -n +7903031-73-91 [options]
 
 Advanced information gathering tool for phone numbers
 (https://github.com/sundowndev/PhoneInfoga)
 
 optional arguments:
   -h, --help            show this help message and exit
-  -n number, --number number
+  -n +7903031-73-91, --+7903031-73-91 +7903031-73-91
                         The phone number to scan (E164 or International
                         format)
   -i input_file, --input input_file
@@ -67,13 +67,13 @@ optional arguments:
 Example (quotes are optional, use it when typing special formats) :
 
 ```
-python phoneinfoga.py -n "(+42)837544833"
+python phoneinfoga.py -n "+7903031-73-91"
 ```
 
 Check for a number range on OVH :
 
 ```
-python phoneinfoga.py -n +42837544833 -s ovh
+python phoneinfoga.py -n +7903031-73-91 -s ovh
 ```
 
 Check several numbers at once :
@@ -87,7 +87,7 @@ python ./phoneinfoga.py -i numbers.txt -o results.txt
 Use all scanners and run OSINT reconnaissance :
 
 ```
-python phoneinfoga.py -n +42837544833 -s all --osint
+python phoneinfoga.py -n +7903031-73-91 -s all --osint
 ```
 
 ## Formatting
